@@ -1,0 +1,24 @@
+# LangChain and dependencies
+langchain==0.1.14
+langchain-community==0.0.28
+langchain-core==0.1.27
+
+# Sentence Transformers and HuggingFace
+sentence-transformers==2.2.2
+transformers==4.38.2
+huggingface-hub==0.20.3
+
+# Torch and Numpy
+torch==2.1.2
+numpy<2.0  # Prevents issues with NumPy 2.x
+
+# Vectorstore: FAISS (CPU version)
+faiss-cpu==1.7.4
+
+# Utilities
+tqdm==4.66.2
+scikit-learn==1.4.1
+
+# Jupyter/IPython (optional)
+ipython==8.12.3
+ipykernel==6.29.4

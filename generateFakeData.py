@@ -11,9 +11,9 @@ from uuid import uuid4
 from datetime import datetime, timedelta
 
 # ---------------- CONFIG ------------------
-TOTAL_USERS = 520
-CUSTOMER_RATIO = 50
-STAFF_RATIO = 2
+TOTAL_USERS = 100
+CUSTOMER_RATIO = 10
+STAFF_RATIO = 1
 DB_CONFIG = {
     "host": "localhost",
     "dbname": "global_financial_services_db",
